@@ -1,0 +1,12 @@
+mkdir 20231027-create-gh-repos
+
+cd 20231027-create-gh-repos
+
+git init
+
+git add .
+
+git commit -m “initial commit”
+
+gh repo create [20231027-create-gh-repos] --public --source=. --remote=upstream --push
+
